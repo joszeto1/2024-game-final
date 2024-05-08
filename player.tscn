@@ -15,3 +15,5 @@ unique_name_in_owner = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -21)
 shape = SubResource("CircleShape2D_bcv78")
+
+[node name="Camera2D" type="Camera2D" parent="."]
