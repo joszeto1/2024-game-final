@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://player.gd" id="1_w77gb"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bcv78"]
-radius = 34.0
+radius = 30.0167
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_w77gb")
@@ -13,5 +13,5 @@ script = ExtResource("1_w77gb")
 unique_name_in_owner = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-2, -49)
+position = Vector2(0, -21)
 shape = SubResource("CircleShape2D_bcv78")
