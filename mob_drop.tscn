@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dv2khck50oo8x"]
+
+[ext_resource type="Script" path="res://mob_drop.gd" id="1_my7tx"]
+[ext_resource type="Texture2D" uid="uid://beuuhbca7o4se" path="res://snowflake.png" id="2_yh42a"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3laa5"]
+radius = 49.0918
+
+[node name="MobDrop" type="Area2D"]
+script = ExtResource("1_my7tx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(8, 7)
+scale = Vector2(0.967882, 0.882089)
+texture = ExtResource("2_yh42a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 6)
+shape = SubResource("CircleShape2D_3laa5")

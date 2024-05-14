@@ -1,2 +1,6 @@
 res://survivors_game.gd
 res://survivors_game.tscn
+res://mob.gd
+res://mob.tscn
+res://mob_drop.tscn
+res://mob_drop.gd
