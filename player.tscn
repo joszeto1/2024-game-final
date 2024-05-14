@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b65q1eewndvcn"]
+[gd_scene load_steps=9 format=3 uid="uid://b65q1eewndvcn"]
 
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_p3wwh"]
 [ext_resource type="Script" path="res://player.gd" id="1_w77gb"]
@@ -24,8 +24,10 @@ corner_radius_top_right = 8
 corner_radius_bottom_right = 8
 corner_radius_bottom_left = 8
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_me8m2"]
+radius = 32.7567
+
 [node name="Player" type="CharacterBody2D"]
-platform_floor_layers = 4294901760
 script = ExtResource("1_w77gb")
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_p3wwh")]
@@ -60,3 +62,10 @@ theme_override_styles/background = SubResource("StyleBoxFlat_4apaa")
 theme_override_styles/fill = SubResource("StyleBoxFlat_boll5")
 value = 100.0
 show_percentage = false
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -16)
+shape = SubResource("CircleShape2D_me8m2")
+debug_color = Color(0.839216, 0, 0.921569, 0.419608)

@@ -4,3 +4,5 @@ res://mob.gd
 res://mob.tscn
 res://mob_drop.tscn
 res://mob_drop.gd
+res://player.tscn
+res://player.gd
