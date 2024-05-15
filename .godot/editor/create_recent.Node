@@ -1,8 +1,9 @@
+Sprite2D
+Node2D
+Label
 CollisionShape2D
 Area2D
 CharacterBody2D
-Sprite2D
-Label
 ColorRect
 CanvasLayer
 Timer
@@ -11,4 +12,3 @@ Path2D
 ProgressBar
 Marker2D
 Camera2D
-StaticBody2D
