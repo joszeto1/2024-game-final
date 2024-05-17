@@ -1,3 +1,5 @@
+AnimatedSprite2D
+AnimatedSprite3D
 Sprite2D
 Node2D
 Label
@@ -11,4 +13,3 @@ PathFollow2D
 Path2D
 ProgressBar
 Marker2D
-Camera2D
