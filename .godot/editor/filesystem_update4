@@ -4,3 +4,6 @@ res://survivors_game.tscn
 res://mob.tscn
 res://player.tscn
 res://characters/happy_boo/happy_boo.tscn
+res://mob.gd
+res://mob_drop.tscn
+res://mob_drop.gd
