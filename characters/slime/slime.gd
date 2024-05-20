@@ -1,10 +1,11 @@
 extends Node2D
 
+@onready var animated_sprite_2d = $AnimatedSprite2D
 
 func play_walk():
-	%AnimationPlayer.play("walk")
+	$AnimatedSprite2D.play("walk")
 
 
 func play_hurt():
-	%AnimationPlayer.play("hurt")
-	%AnimationPlayer.queue("walk")
+	$AnimatedSprite2D.play("hurt")
+	
