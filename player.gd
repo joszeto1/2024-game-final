@@ -4,11 +4,12 @@ signal health_depleted
 
 var health = 100.0
 var score_count = 0
+var speed = 600
 
 func _physics_process(delta):
 	var direction = Input.get_vector("move_left","move_right",
 	"move_up","move_down")
-	velocity = direction * 700
+	velocity = direction * speed
 	move_and_slide()
 	
 	if velocity.length() > 0:
@@ -29,7 +30,9 @@ func _physics_process(delta):
 func set_score(new_score):
 	score_count = new_score
 	get_node("UI/ScoreLabel").text = "x" + str(score_count)
-
+	
+	if score_count == 15:
+		speed = 1000
 
 func _on_area_2d_area_entered(area):
 	set_score(score_count + 1)

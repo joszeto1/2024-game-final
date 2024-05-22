@@ -1,11 +1,12 @@
-AudioStreamPlayer2D
-AnimatedSprite2D
-AnimatedSprite3D
+Camera2D
 Sprite2D
-Node2D
 Label
 CollisionShape2D
 Area2D
+AudioStreamPlayer2D
+AnimatedSprite2D
+AnimatedSprite3D
+Node2D
 CharacterBody2D
 ColorRect
 CanvasLayer
