@@ -7,8 +7,7 @@
 radius = 49.0918
 
 [node name="MobDrop" type="Area2D"]
-collision_layer = 5
-collision_mask = 5
+collision_layer = 2
 script = ExtResource("1_my7tx")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

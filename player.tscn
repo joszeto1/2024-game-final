@@ -54,6 +54,7 @@ shape = SubResource("CircleShape2D_858gk")
 debug_color = Color(0.898039, 0.243137, 0.521569, 0.419608)
 
 [node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(2, -45)

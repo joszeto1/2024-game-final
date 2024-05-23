@@ -1,14 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716505080
+::res://::1716505912
+61691__ifartinurgeneraldirection__yay.mp3::AudioStreamMP3::6039564199429669495::1716505912::1716505912::1::::<><>::
 107785__hans__tink.wav::AudioStreamWAV::2547800086140715914::1716244555::1716244555::1::::<><>::
 588654__majetheman__vine-boom-sound-effect.mp3::AudioStreamMP3::1693388504707205180::1716244555::1716244555::1::::<><>::
 Bullet.gd::GDScript::-1::1715380200::0::1::::<>Area2D<>::
 bullet.tscn::PackedScene::80642368890275964::1715633468::0::1::::<><>::res://Bullet.gd<>uid://dftkbqwsfd68r::::res://pistol/projectile.png
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695668179::0::1::::<><>::
 flame-spriteSheet.png::CompressedTexture2D::7518886582077127980::1716242032::1716242032::1::::<><>::
-gate.gd::GDScript::-1::1716404694::0::1::::<>Area2D<>::
+gate.gd::GDScript::-1::1716505554::0::1::::<>Area2D<>::
 gate.png::CompressedTexture2D::4817968280378189371::1716505080::1716505080::1::::<><>::
-gate.tscn::PackedScene::6540731339258554678::1716504922::0::1::::<><>::res://gate.gd<>uid://i4cjdwy1kcoj::::res://icon.png
+gate.tscn::PackedScene::6540731339258554678::1716505746::0::1::::<><>::res://gate.gd<>uid://cav4h7d6oi15x::::res://gate.png
 gun.gd::GDScript::-1::1715628247::0::1::::<>Area2D<>::
 gun.tscn::PackedScene::8685865391770713270::1715635960::0::1::::<><>::res://gun.gd<>uid://cswb5do8rrj7q::::res://pistol/pistol.png
 icon.png::CompressedTexture2D::621515402784007901::1695668179::1715116577::1::::<><>::
@@ -17,14 +18,14 @@ mob.tscn::PackedScene::6316588173183115550::1716399989::0::1::::<><>::res://mob.
 mob_drop.gd::GDScript::-1::1716244555::0::1::::<>Area2D<>::
 mob_drop.tscn::PackedScene::8689585759214379249::1716244059::0::1::::<><>::res://mob_drop.gd<>uid://beuuhbca7o4se::::res://snowflake.png
 pine_tree.tscn::PackedScene::7033420480741163552::1715190048::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
-player.gd::GDScript::-1::1716504845::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::4625224288909401165::1716504911::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd<>uid://dv0q60xhkgpw5::::res://gun.tscn<>uid://beuuhbca7o4se::::res://snowflake.png
+player.gd::GDScript::-1::1716505349::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::4625224288909401165::1716505615::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd<>uid://dv0q60xhkgpw5::::res://gun.tscn<>uid://beuuhbca7o4se::::res://snowflake.png
 README.md::TextFile::-1::1715116450::0::1::::<><>::
 snowball hurt-Sheet.png::CompressedTexture2D::4963086145570214134::1716242032::1716242032::1::::<><>::
 snowball-Sheet.png::CompressedTexture2D::37614757227946680::1716242032::1716242032::1::::<><>::
 snowflake.png::CompressedTexture2D::2709690509395395788::1715794825::1715794825::1::::<><>::
 survivors_game.gd::GDScript::-1::1716405245::0::1::::<>Node2D<>::
-survivors_game.tscn::PackedScene::3771966219245095284::1716504911::0::1::::<><>::uid://b65q1eewndvcn::::res://player.tscn<>res://survivors_game.gd<>uid://c7hbn4ld4xirw::::res://pine_tree.tscn<>uid://beuuhbca7o4se::::res://snowflake.png
+survivors_game.tscn::PackedScene::3771966219245095284::1716505615::0::1::::<><>::uid://b65q1eewndvcn::::res://player.tscn<>res://survivors_game.gd<>uid://c7hbn4ld4xirw::::res://pine_tree.tscn<>uid://beuuhbca7o4se::::res://snowflake.png
 ::res://addons/::1695668179
 ::res://addons/colorpicker_presets/::1695668179
 colorpicker_presets.gd::GDScript::-1::1695668179::0::1::::<>EditorPlugin<>::

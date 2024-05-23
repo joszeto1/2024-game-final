@@ -27,7 +27,6 @@ func _physics_process(delta):
 		if health <= 0.0:
 			health_depleted.emit()
 	
-	
 func set_score(new_score):
 	score_count = new_score
 	get_node("UI/ScoreLabel").text = "x" + str(score_count)
