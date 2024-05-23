@@ -91,10 +91,16 @@ offset_right = 1120.0
 offset_bottom = 402.0
 theme_override_colors/font_color = Color(0, 0.0941176, 0.243137, 1)
 theme_override_font_sizes/font_size = 30
-text = "Collect         x15 for a speed boost!"
+text = "Collect         x15 for a speed boost!
+Collect         x20 to escape! -->"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(767, 378)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("4_h3p67")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(766, 432)
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("4_h3p67")
 

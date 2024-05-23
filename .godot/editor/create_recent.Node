@@ -1,6 +1,8 @@
+Label
+ColorRect
+CanvasLayer
 Camera2D
 Sprite2D
-Label
 CollisionShape2D
 Area2D
 AudioStreamPlayer2D
@@ -8,8 +10,5 @@ AnimatedSprite2D
 AnimatedSprite3D
 Node2D
 CharacterBody2D
-ColorRect
-CanvasLayer
 Timer
 PathFollow2D
-Path2D

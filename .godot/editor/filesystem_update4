@@ -1,3 +1,5 @@
+res://gate.tscn
 res://survivors_game.tscn
 res://player.tscn
-res://gate.tscn
+res://player.gd
+res://gate.gd
